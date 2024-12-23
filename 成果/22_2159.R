@@ -8,7 +8,7 @@ glimpse(data_109)
 glimpse(data_112)
 
 
-# 2. 定義清理數值欄位的函數
+# 2. 定義清理數值欄位的函數(NULL、數值為0的資料)
 clean_numeric <- function(column) {
   column |> 
     as.character() |> 
